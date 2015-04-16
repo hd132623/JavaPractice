@@ -4,7 +4,7 @@ public class car_yeah {
 
 	public static void main(String[] args) {
 		int i = 0;
-		car car = new car();
+		Car2 car = new Car2("현대자동차","제네시스","검정색",225,50000000);
 		System.out.println("<< 자동차 목록 >>");
 		while(i<3){
 		System.out.println("제조사명 : " + car.getCompany());
@@ -15,18 +15,10 @@ public class car_yeah {
 		System.out.println();
 		i++;
 		if(i==1){
-			car.setCompany("기아자동차");
-			car.setModel("K7");
-			car.setColor("흰색");
-			car.setMaxSpeed(246);
-			car.setPrice(40000000);
+			car = new Car2("기아자동차","K7","흰색",246,40000000);
 		}
 		else if(i==2){
-			car.setCompany("삼성자동차");
-			car.setModel("5M7");
-			car.setColor("회색");
-			car.setMaxSpeed(200);
-			car.setPrice(38000000);
+			car = new Car2("삼성자동차","5M7","회색",200,38000000);
 		}
 		}
 	}

@@ -22,6 +22,8 @@ public class car {
 	public int getPrice(){
 		return price;
 	}
+
+	
 	public void setCompany(String newcompany){
 		company = newcompany;
 	}
