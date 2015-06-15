@@ -1,7 +1,7 @@
 package org.dimigo.oop;
 
 public class FamilyMember {
-
+ 
 	private static int memberCnt=4;
 	private String memberName;
 	

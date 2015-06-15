@@ -2,7 +2,7 @@ package org.dimigo.oop;
 
 public class PiggyBank {
 	private static int balance;
-	
+	 
 	public static void putMoney(FamilyMember member, int amount){
 		System.out.println(member.getMemberName() + " " + amount + "원 넣음");
 		balance += amount;

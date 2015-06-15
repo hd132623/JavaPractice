@@ -3,7 +3,7 @@ package org.dimigo.oop;
 public class PiggyBankTest {
 
 	public static void main(String[] args) {
-		FamilyMember.printMemberCnt();
+		FamilyMember.printMemberCnt();//a
 		FamilyMember m1 = new FamilyMember("아빠");
 		FamilyMember m2 = new FamilyMember("엄마");
 		FamilyMember m3 = new FamilyMember("나");
